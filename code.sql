@@ -166,7 +166,7 @@ set dno = 10
 where dname = 'CS'
 
 -- delete statement
-delete from dept where dno = 20;
+delete from dept where dno = 10;
 
 -- Algebric expression in Student table
 Select s.rno, s.fname, s.lname, s.gender, s.dno, s.age, s.cgpa, (s.cgpa - 1.0) AS [New Cgpa]
