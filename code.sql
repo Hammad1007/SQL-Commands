@@ -1,4 +1,4 @@
-create database Meow12
+create database Meow12  -- create is a reserved word for creating any table, database
 go
 use Meow12
 go
@@ -8,7 +8,8 @@ dno int primary key,
 dname varchar(5)
 );
 
-drop table Student
+drop table Student  -- drop is a reserved word
+
 create table Student (
 rno int primary key,
 fname varchar(20),
@@ -20,6 +21,7 @@ dno int
 );
 
 drop table Teacher
+
 create table Teacher (
 teacherid int primary key,
 tfname varchar(20),
@@ -59,7 +61,8 @@ Select * from Student
 Select * from Teacher
 
 -- adding column in table
-alter table Studentadd dno int
+alter table Student 
+add dno int
 
 -- adding foreign key
 alter table Student
