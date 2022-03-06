@@ -60,11 +60,11 @@ Select * from dept
 Select * from Student
 Select * from Teacher
 
--- adding column in table
+-- adding column in table using alter statement
 alter table Student 
 add dno int
 
--- adding foreign key
+-- adding foreign key using alter statement
 alter table Student
 add constraint fk_dno foreign key(dno) references dept(dno) on delete cascade on update cascade
 
