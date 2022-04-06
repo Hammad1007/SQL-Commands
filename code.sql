@@ -2,6 +2,7 @@ create database Meow12  -- create is a reserved word for creating any table, dat
 go
 use Meow12
 go
+
 -- create table dept
 create table dept (
 dno int primary key,
