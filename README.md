@@ -1,4 +1,6 @@
 # SQL-Commands
+
+SQL is a powerful language and is not at all a case sensitive language. It is used for the back end development and is frequently used for handling the databases.
 This repository talks about the basic commands we use in SQL. 
 There are things related to DDL and DML.
 
