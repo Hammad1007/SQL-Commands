@@ -10,7 +10,6 @@ dname varchar(5)
 );
 
 drop table Student  -- drop is a reserved word
-
 create table Student (
 rno int primary key,
 fname varchar(20),
