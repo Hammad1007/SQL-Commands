@@ -62,19 +62,16 @@ Select * from Student
 Select * from Teacher
 
 -- adding column in table using alter statement
-alter table Student 
-add dno int
+alter table Student add dno int
 
 -- adding foreign key using alter statement
-alter table Student
-add constraint fk_dno foreign key(dno) references dept(dno) on delete cascade on update cascade
+alter table Student add constraint fk_dno foreign key(dno) references dept(dno) on delete cascade on update cascade
 
 -- adding foreign key
-alter table Teacher
-add constraint fk_deptno foreign key(deptno) references dept(dno) on delete cascade on update cascade
+alter table Teacher add constraint fk_deptno foreign key(deptno) references dept(dno) on delete cascade on update cascade
 
 -- where dname is CS
-Select * from dept
+Select * from dept 
 where dname = 'CS'
 
 -- where dname has first letter M
