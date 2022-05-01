@@ -21,7 +21,7 @@ The file includes the following functions:
 13. Where clause
 14. Select clause
 15. Nested Querries
-16. Joins(Right, Left, Full, Inner)
+16. Joins(Inner and Outer)
 17. Alias names
 18. Union
 19. Intersection
