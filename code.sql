@@ -1,3 +1,6 @@
+drop database Meow12
+go
+
 create database Meow12  -- create is a reserved word for creating any table, database
 go
 use Meow12
@@ -9,7 +12,9 @@ dno int primary key,
 dname varchar(5)
 );
 
-drop table Student  -- drop is a reserved word
+-- drop is a reserved word
+drop table Student  
+
 create table Student (
 rno int primary key,
 fname varchar(20),
