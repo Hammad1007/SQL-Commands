@@ -15,6 +15,7 @@ dname varchar(5)
 -- drop is a reserved word
 drop table Student  
 
+-- table student
 create table Student (
 rno int primary key,
 fname varchar(20),
