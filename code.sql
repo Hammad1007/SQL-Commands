@@ -26,7 +26,7 @@ cgpa decimal(2,1) check(cgpa >= 0.00 OR cgpa <= 4.00),
 dno int
 );
 
-drop table Teacher
+--drop table Teacher
 
 create table Teacher (
 teacherid int primary key,
