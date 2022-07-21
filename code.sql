@@ -1,7 +1,8 @@
 drop database Meow12
 go
 
-create database Meow12  -- create is a reserved word for creating any table, database
+-- create is a reserved word for creating any table, database
+create database Meow12  
 go
 use Meow12
 go
